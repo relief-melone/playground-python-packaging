@@ -1,3 +1,2 @@
-from .main import hello
+from .main import basic_schema
 
-hello
