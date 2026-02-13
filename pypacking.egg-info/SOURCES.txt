@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+pypacking.egg-info/PKG-INFO
+pypacking.egg-info/SOURCES.txt
+pypacking.egg-info/dependency_links.txt
+pypacking.egg-info/requires.txt
+pypacking.egg-info/top_level.txt
