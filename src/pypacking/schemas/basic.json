@@ -1,7 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "car facts",
   "additionalProperties": false,
   "properties": {
-    "foo": { "type": "string" }
+    "model": { "type": "string", "description": "the model of the car" },
+    "year": { "type": "integer", "description": "the year the car was made" },
+    "manufacturer": { "type": "string", "description": "the manufacturer of the car. E.g. BMW" },
+    "power": { "type": "integer", "description": "the power of the car in horsepower" }
   }
 }
