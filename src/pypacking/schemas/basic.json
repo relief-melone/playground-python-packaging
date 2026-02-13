@@ -1,5 +1,5 @@
 {
-  "title": "car facts",
+  "title": "car-facts",
   "type": "object",
   "description": "collection of facts for a car",
   "additionalProperties": false,
