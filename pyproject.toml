@@ -9,7 +9,7 @@ dependencies = [
 
 [tool.hatch.build]
 artifacts = [
-  "src/schemas/*.json"
+  "src/pypacking/schemas/*.json"
 ]
 
 [build-system]
