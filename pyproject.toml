@@ -7,6 +7,12 @@ dependencies = [
   "hatchling"
 ]
 
+[tool.hatch.build]
+include = [
+  "src/schemas/*.json",
+  "src/pypacking/*"
+]
+
 [build-system]
 requires = [ "hatchling" ]
 build-backend = "hatchling.build"
